@@ -18,6 +18,7 @@
     [super viewDidLoad];
     lineView *lineview = [[lineView alloc] init];
 //    lineview.backgroundColor = [UIColor yellowColor];
+    
     lineview.frame = CGRectMake(10, 200, 200, 1);
     
     [self.view addSubview:lineview];
